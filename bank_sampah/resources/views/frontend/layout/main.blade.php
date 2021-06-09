@@ -17,7 +17,6 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-<<<<<<< HEAD:bank_sampah/resources/views/frontend/layout/main.blade.php
   <link href="frontend/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="frontend/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="frontend/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -28,18 +27,6 @@
 
   <!-- Template Main CSS File -->
   <link href="frontend/assets/css/style.css" rel="stylesheet">
-=======
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/line-awesome/css/line-awesome.min.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
->>>>>>> cb61e2dafd37135d516c25614da3d60a29e4d072:bank_sampah/resources/views/layout/main.blade.php
 
   <!-- =======================================================
   * Template Name: Serenity - v2.2.1
@@ -325,7 +312,6 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-<<<<<<< HEAD:bank_sampah/resources/views/frontend/layout/main.blade.php
   <script src="frontend/assets/vendor/jquery/jquery.min.js"></script>
   <script src="frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="frontend/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
