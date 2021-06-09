@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('frontend/layout/main');
 });
+Route::get('admin', function () {
+    return view('backend/layouts/main');
+});
