@@ -1,7 +1,6 @@
-@extends('fronted.layout.main')
+@extends('frontend.layout.main')
 
 @section('content')
-    
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container" data-aos="fade-up">

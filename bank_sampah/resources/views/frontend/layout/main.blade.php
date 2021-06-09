@@ -39,6 +39,7 @@
 <body>
 @include('frontend.layout.navbar')
 @include('frontend.layout.footer')
+
 @yield('content')
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
