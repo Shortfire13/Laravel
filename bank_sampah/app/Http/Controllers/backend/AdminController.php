@@ -16,4 +16,8 @@ class AdminController extends Controller
     {
         return view('backend.layouts.user');
     }
+    public function userform()
+    {
+        return view('backend.layouts.userform');
+    }
 }
