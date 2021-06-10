@@ -29,48 +29,44 @@
                     </div>
                     <!-- card body -->
                     <div class="card-body">
-                        <div id="usermanage_wrapper">
-                            <div class="col-12">
-                                <!-- table management user -->
-                                <table class="table table-striped" id="usermanage">
-                                    <thead class="thead-dark">
-                                        <tr>
-                                            <th scope="col">No.</th>
-                                            <th scope="col">Nama</th>
-                                            <th scope="col">Email</th>
-                                            <th scope="col">No. Hp</th>
-                                            <th scope="col">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Hanif</td>
-                                            <td>hanifsatrio12@gmail.com</td>
-                                            <td>08123456789</td>
-                                                <i class="bi-star-fill text-warning"></i>
-                                                <i class="bi-star-fill text-warning"></i>
-                                                <i class="bi-star-fill text-warning"></i>
-                                                <i class="bi-star-fill text-warning"></i>
-                                                <i class="bi-star-half text-warning"></i>
-                                            </td>
-                                            <td>
-                                                <a type="button" class="btn btn-primary" data-tooltip="tooltip"
-                                                    data-placement="bottom" title="Lihat Detail"
-                                                    href="#">
-                                                    <i class="bi bi-eye-fill"></i>
-                                                </a>
-                                                <a type="button" class="btn btn-danger text-white"
-                                                    data-target="#deleteModal" role="button" data-tooltip="tooltip"
-                                                    data-toggle="modal" data-placement="bottom" title="Hapus"
-                                                    onclick="#">
-                                                    <i class="fas fa-trash-alt"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div class="col-12">
+                            <!-- table management user -->
+                            <table class="table table-striped">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Nama</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">No. Hp</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Hanif</td>
+                                        <td>hanifsatrio12@gmail.com</td>
+                                        <td>08123456789</td>
+                                        <i class="bi-star-fill text-warning"></i>
+                                        <i class="bi-star-fill text-warning"></i>
+                                        <i class="bi-star-fill text-warning"></i>
+                                        <i class="bi-star-fill text-warning"></i>
+                                        <i class="bi-star-half text-warning"></i>
+                                        </td>
+                                        <td>
+                                            <a type="button" class="btn btn-primary" data-tooltip="tooltip"
+                                                data-placement="bottom" title="Lihat Detail" href="#">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <a type="button" class="btn btn-danger text-white"
+                                                data-target="#deleteModal" role="button" data-tooltip="tooltip"
+                                                data-toggle="modal" data-placement="bottom" title="Hapus" onclick="#">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
