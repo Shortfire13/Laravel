@@ -23,6 +23,7 @@
   </div>
 
 @include('backend.layouts.navbar')
+@yield('content')
 @include('backend.layouts.sidebar')
 @include('backend.layouts.footer')
 
