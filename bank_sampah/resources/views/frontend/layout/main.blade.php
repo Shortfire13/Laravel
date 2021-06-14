@@ -44,6 +44,7 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://use.fontawesome.com/13e542bb87.js"></script>
   <script src="frontend/assets/vendor/jquery/jquery.min.js"></script>
   <script src="frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="frontend/assets/vendor/jquery.easing/jquery.easing.min.js"></script>

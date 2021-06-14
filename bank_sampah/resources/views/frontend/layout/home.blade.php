@@ -73,24 +73,22 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="icon-box" data-aos="fade-up">
-                        <div class="icon"><i class="las la-basketball-ball" style="color: #ff689b;"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
+                        <div class="icon"><i class="las la-truck"></i></div>
+                        <h4 class="title"><a href="">Jemput Sampah</a></h4>
+                        <p class="description">Anda Tidak Perlu Datang Ke Kantor, Cukup Tunggu Dan Kami Akan Jemput Sampah Anda</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="icon-box" data-aos="fade-up">
-                        <div class="icon"><i class="las la-book" style="color: #e9bf06;"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat tarad limino ata</p>
+                        <div class="icon"><i class="las la-book-open" style="color: #e9bf06;"></i></div>
+                        <h4 class="title"><a href="">Rekening Digital</a></h4>
+                        <p class="description">Rekening anda akan berbentuk digital sehingga anda tidak perlu ribet mengontrol rekening anda.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <div class="icon"><i class="las la-file-alt" style="color: #3fcdc7;"></i></div>
+                        <div class="icon"><i class="las la-book" style="color: #3fcdc7;"></i></div>
                         <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore eu fugiat nulla pariatur</p>
