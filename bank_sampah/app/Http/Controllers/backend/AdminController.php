@@ -16,12 +16,16 @@ class AdminController extends Controller
     {
         return view('backend.layouts.user');
     }
-    public function userform()
+    public function adminform()
     {
-        return view('backend.layouts.userform');
+        return view('backend.layouts.adminform');
     }
     public function adminlist()
     {
         return view('backend.layouts.adminlist');
+    }
+    public function transaksi()
+    {
+        return view('backend.layouts.transaksi');
     }
 }

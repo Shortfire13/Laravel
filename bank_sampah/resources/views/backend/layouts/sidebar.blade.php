@@ -44,7 +44,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{url('userform')}}" class="nav-link">
+                <a href="{{url('adminform')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tambah Admin</p>
                 </a>
@@ -56,6 +56,18 @@
                 </a>
               </li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a href="{{url('user')}}" class="nav-link">
+              <i class="fas fa-user"></i>
+              <p>Manajemen User</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{url('transaksi')}}" class="nav-link">
+              <i class="fas fa-cash-register"></i>
+              <p>Transaksi</p>
+            </a>
           </li>
       <!-- /.sidebar-menu -->
     </div>
