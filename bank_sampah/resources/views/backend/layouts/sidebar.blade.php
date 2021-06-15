@@ -26,8 +26,8 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link">
+          <li class="nav-item">
+            <a href="{{url('admin')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -44,13 +44,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+                <a href="{{url('userform')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tambah Admin</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
+                <a href="{{url('adminlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>List Admin</p>
                 </a>

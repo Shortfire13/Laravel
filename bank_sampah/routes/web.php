@@ -23,3 +23,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 Route::get('/user',  [AdminController::class, 'user']);
 Route::get('/userform',  [AdminController::class, 'userform']);
+Route::get('/adminlist',  [AdminController::class, 'adminlist']);
