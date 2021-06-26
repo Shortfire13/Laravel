@@ -28,4 +28,5 @@ class AdminController extends Controller
     {
         return view('backend.layouts.transaksi');
     }
+    
 }

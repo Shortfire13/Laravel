@@ -9,12 +9,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Tambah Admin</h1>
+                    <h1 class="m-0">Tambah pegawai</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{url('admin')}}">Home</a></li>
-                        <li class="breadcrumb-item active">Tambah Admin</li>
+                        <li class="breadcrumb-item active">Tambah Pegawai</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -30,19 +30,19 @@
                     <div class="card-header">
                         <span>
                             <h3><strong>
-                                    <center>FORM TAMBAH ADMIN</center>
+                                    <center>FORM TAMBAH PEGAWAI</center>
                                 </strong></h3>
                         </span>
                     </div>
                     <div class="card-body p-5 bg-dark">
-                        <form action="">
+                        <form action="{{route('store')}}" method="post" enctype="multipart/form-data">
+                            {{csrf_field()}}
 
                             <!-- nama -->
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Nama Lengkap</label>
                                 <div class="col-sm-8">
-                                    <input type="text" name="name" class="form-control" id="name" value=""
-                                        maxlength="45" placeholder="Tuliskan Nama Lengkap Anda" required>
+                                    <input type="text" name="name" class="form-control" id="name" value="" maxlength="45" placeholder="Tuliskan Nama Lengkap Anda" required>
                                 </div>
                             </div>
                             <!-- username -->
@@ -54,32 +54,32 @@
                                 </div>
                             </div> --}}
                             <!-- email -->
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Email</label>
                                 <div class="col-sm-8">
-                                    <input type="email" class="form-control" name="email_register"
-                                        aria-describedby="emailHelp" value="" placeholder="Masukkan email anda"
-                                        maxlength="45" required>
+                                    <input type="email" class="form-control" name="email_register" aria-describedby="emailHelp" value="" placeholder="Masukkan email anda" maxlength="45" required>
                                 </div>
-
-                            </div>
+                            </div> --}}
                             <!-- password -->
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Password</label>
                                 <div class="col-sm-8">
-                                    <input type="password" name="password_register" class="form-control" maxlength="255"
-                                        id="password" placeholder="password" required>
+                                    <input type="password" name="password" class="form-control" maxlength="255" id="password" placeholder="password" required>
                                 </div>
-
                             </div>
                             <!-- Konfirm Password -->
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Konfirmasi Password</label>
                                 <div class="col-sm-8">
-                                    <input type="password" name="password_register_confirm" class="form-control"
-                                        id="password" placeholder="konfirmasi password" maxlength="255" required>
+                                    <input type="password" name="password_confirm" class="form-control" id="password" placeholder="konfirmasi password" maxlength="255" required>
                                 </div>
+                            </div> --}}
 
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Gaji</label>
+                                <div class="col-sm-8">
+                                    <input type="text" name="gaji" class="form-control" id="" placeholder="Masukkan Gaji" maxlength="255" required>
+                                </div>
                             </div>
                             <!-- tanggal lahir -->
                             {{-- <div class="form-group row">
@@ -124,8 +124,7 @@
                             </div> --}}
                             <div class="form-group row">
                                 <div class="input-group col-sm-12 ">
-                                    <button type="submit"
-                                        class="btn btn-primary btn-lg btn-block mt-3">Daftarkan</button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block mt-3">Daftarkan</button>
                                 </div>
                             </div>
                         </form>
