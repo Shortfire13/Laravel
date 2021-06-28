@@ -43,12 +43,10 @@
                                     <td>{{$pegawais->id}}</td>
                                     <td>{{$pegawais->name}}</td>
                                     <td>
-                                        <a href=""
-                                            class=" btn btn-primary mr-2" data-tooltip="tooltip" data-placement="bottom"
-                                            title="Edit">
+                                        <a href="{{route('editpegawai',['id'=> $pegawais->id])}}" class=" btn btn-primary mr-2" data-tooltip="tooltip" data-placement="bottom" title="Edit">
                                             <i class="bi bi-pencil-square"></i>
                                         </a>
-                                        <a type="button" class="btn btn-danger text-white" data-target="#deleteModal" role="button" data-tooltip="tooltip" data-toggle="modal" data-placement="bottom" title="Hapus">
+                                        <a type="button" hre class="btn btn-danger text-white" data-target="#deleteModal" role="button" data-tooltip="tooltip" data-toggle="modal" data-placement="bottom" title="Hapus">
                                             <i class="bi bi-trash-fill"></i>
                                         </a>
                                     </td>

@@ -34,4 +34,9 @@ class PegawaiController extends Controller
           ]);
           return redirect()->route('listpegawai');
     }
+    public function editpegawai(Request $Request)
+    {
+        $pegawai = pegawai::findorfail($Request);
+        return view('backend.layouts.editpegawai', compact('pegawai'));
+    }
 }

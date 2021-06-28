@@ -29,3 +29,4 @@ Route::get('/transaksi',  [AdminController::class, 'transaksi']);
 Route::get('/tambahpegawai',  [PegawaiController::class, 'tambahpegawai'])->name('tambahpegawai');
 Route::get('/listpegawai',  [PegawaiController::class, 'index'])->name('listpegawai');
 Route::post('/store',  [PegawaiController::class, 'store'])->name('store');
+Route::get('/editpegawai/{id}',  [PegawaiController::class, 'editpegawai'])->name('editpegawai');
